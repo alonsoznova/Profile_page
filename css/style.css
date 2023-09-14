@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar{
+    display: flex;
+    height:80px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    gap: 21%;
+}
+#nav-leftside{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-bar h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 300;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 15px;
+    font-weight: 600;
+    font-size: 20px;
+}
+#sign-out{
+    color: white;
+    background-color: rgb(61, 161, 255);
+    padding: 4px 14px;
+    font-weight: 500px;
+    font-size: 25px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 25px;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 25px;
+}
+.profile{
+    width: inherit;
+
+}
+.banner{
+    width: inherit;
+    position: relative;
+    height: 140px;
+    background-color: rgb(61, 161, 255);
+}
+#profile-pic{
+    width: 120px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid gainsboro;
+    padding: 1px;
+    top: 55%;
+    left: 40px;
+    background-color: white;
+}
+.profile-info{
+    display: flex;
+    padding: 60px 40px 20px;
+    flex-direction: column;
+    border: 3px solid gainsboro;
+    gap: 15px;
+}
+.profile-info h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+.ubication{
+    display: flex;
+    gap: 13px;
+    font-weight: 300;
+    font-size: 30px;
+    align-items: center;
+}
+#ubi-icon{
+    width: 17px;
+    height: 25px;
+}
+.description{
+    font-weight: 300;
+    font-size: 25px;
+}
+.edit-profile{
+    display: flex;
+    gap: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    align-items: center;
+}
+#edit-icon{
+    width: 25px;
+    height: 25px;
+}
+.education{
+    display: flex;
+    width: inherit;
+    flex-direction: column;
+}
+#ed-headline{
+    color: white;
+    background-color: rgb(70, 70, 70);
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 40px;
+}
+#ed-first{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid gainsboro;
+    padding: 20px 40px;
+}
+#ed-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+#ed-period{
+    font-size: 25px;
+    color: gray;
+    margin: 1% 0%;
+}
+#ed-description{
+    margin: 8px 0px;
+    font-size: 23px;
+}
+.side-content{
+    display: flex;
+    width: 330px;
+    flex-direction: column;
+    gap: 25px;
+}
+.connection-requests{
+    width: inherit;
+    border: 3px solid gainsboro;
+}
+#cr-headline{
+    display: flex;
+    background-color: rgb(70, 70, 70);
+    align-items: center;
+    font-size: 25px;
+    padding: 10px;
+    gap: 20px;
+}
+.cr-number{
+    background-color: gainsboro;
+    border-radius: 50%;
+    padding: 0px 8px;
+    font-weight: 400;
+}
+#cr-title{
+    color: white;
+}
+#cr-profiles{
+    width: inherit;
+    display: flex;
+    position: relative;
+    padding: 5px;
+    flex-direction: column;
+}
+.cr-leftside{
+    display: flex;
+}
+.cr-icon{
+    position: absolute;
+    right: 15px;
+}
+.profiles{
+    font-size: 25px;
+    align-items: center;
+}
+.your-connections{
+    width: inherit;
+    border: 3px solid gainsboro;
+}
+#yc-headline{
+    display: flex;
+    background-color: rgb(70, 70, 70);
+    align-items: center;
+    font-size: 25px;
+    gap: 20px;
+    padding: 10px;
+}
+.yc_number{
+    background-color: gainsboro;
+    border-radius: 50%;
+    padding: 4px;
+    font-weight: 400;
+}
+#yc-title{
+    color: white;
+}
+.profiles{
+    display: flex;
+    width: inherit;
+    padding: 10px;
+    align-content: center;
+}
+#view-more{
+    border-top: 3px solid gainsboro;
+    font-size: 20px;
+    padding: 10px;
+}
+.profiles p{
+    align-content: center;
+}
+.other-pfp{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.acc-dcl_icon{
+    width: 35px;
+    height: 35px;
+}
+
